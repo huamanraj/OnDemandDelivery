@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+	<div class="container">
+		<h1>User Dashboard</h1>
+		<div class="row">
+			<div class="col">
+				<h2>Water Bill Payment</h2>
+				<form>
+					<label for="amount">Enter Bill Amount:</label>
+					<input type="number" id="amount" name="amount">
+					<button type="submit"><img src="pay-icon.png"> Pay</button>
+				</form>
+			</div>
+			<div class="col">
+				<h2>Monthly Water Uses Data</h2>
+				<div class="water-data">
+					<img src="calendar-icon.png">
+					<p>Month: <span id="month">January</span></p>
+				</div>
+				<div class="water-data">
+					<img src="water-icon.png">
+					<p>Water Used: <span id="water-used">0</span> liters</p>
+				</div>
+				<button onclick="setMonthlyUses()"><img src="edit-icon.png"> Set Monthly Uses</button>
+			</div>
+			<div class="col">
+				<h2>Rewards in Coins</h2>
+				<div class="coin-data">
+					<img src="coin-icon.png">
+					<p>You have earned <span id="coins">0</span> coins this month</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

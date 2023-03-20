@@ -1,0 +1,84 @@
+body {
+  background-image: url("giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position:left;
+ }
+
+header {
+  background-color:rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  height: 80px;
+  border-bottom: 1px solid #ffffff;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  height: 60px;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #eee;
+}
+
+.content {
+  padding: 50px;
+  color: #ffffff;
+  border: #333;
+  font-size: 35px;
+  text-shadow: #ffeeee;
+  text-align: center;
+}
+
+button {
+  background-color:rgba(255, 255, 255, 0.3);
+  border: none; ;
+  color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 30px 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  
+}
+
+.buttontext{
+ color: #ffffff;
+ align-items: center !important;
+}
+
+.about {
+  margin: 20px 300px 20px 20x;
+}
